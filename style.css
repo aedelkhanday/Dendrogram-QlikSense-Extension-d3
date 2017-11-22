@@ -1,0 +1,137 @@
+/* CSS */
+.qv-object-collapsibleTree div.qv-object-content-container {
+	overflow: auto;
+}
+.qv-object-collapsibleTree td, th {
+	border-top: 0px solid #fff;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+	cursor: default;
+	font-size: 12px;
+}
+.qv-object-collapsibleTree td.numeric {
+	text-align: right;
+}
+.qv-object-collapsibleTree button {
+	width: 100%;
+}
+path {
+  /*stroke: #fff;*/
+  /*fill-rule: evenodd;*/
+  fill: none;
+  stroke: black;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+	  fill: none;
+	  stroke: black;
+	  stroke-width: 3px;
+}
+
+.node text { font: 12px sans-serif; }
+
+.link {
+	  fill: none;
+	  stroke: #ccc;
+	  stroke-width: 2px;
+}
+
+.linkdashed {
+	fill: none;
+	stroke: #ccc;
+	stroke-width: 2px;
+	stroke-dasharray: 5,5,5,5,5,5;
+}
+
+.tooltipDendo {
+  position: absolute;
+  width: 160px;
+  height: 84px;
+  pointer-events: none;
+  background : darkgrey;
+  line-height: 1;
+  font-weight: bold;
+  font-size:11px;
+  padding: 3px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #C0C0C0;
+  border: 2px solid #808000;
+  border-radius: 5px;
+  z-index:999;
+}
+
+/*.tooltipDendo:after {
+    content:'';
+    position: absolute;
+	font-size: 10px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+	z-index:999;
+    height: 0;
+    border-top: solid 8px  rgba(0, 0, 0, 0.8);
+    border-left: solid 8px transparent;
+    border-right: solid 8px transparent;
+}*/
+
+#labelShowData{
+position : absolute;
+top: 3px;
+left: 500px;
+margin: 0 auto;
+font-size: 20px;
+font-weight: bold;
+font-family: "Courier New", Georgia, Serif;
+color: #8FBC8F;
+}
+
+#opti{
+left: 5px;
+top: 2px;
+position: absolute;
+border: none;
+font-size: 14px;
+height: 29px;
+padding: 2px; /* If you add too much padding here, the options won't show in IE */
+width: 200px;
+background-color: #c0c0c0; 
+-webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+option{
+font-size: 15px;
+font
+}
+
+#legendImage{
+  position : absolute;
+  float:right;
+  height:20px;
+  top: 2px;
+  right: 1%;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Courier New", Georgia, Serif;
+  color: #8FBC8F;
+}
+
+ .legend {
+	            padding: 5px;
+	            font: 10px sans-serif;
+	            background: yellow;
+	            box-shadow: 2px 2px 1px #888;
+            }
+
